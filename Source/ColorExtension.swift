@@ -30,11 +30,11 @@ extension Color {
 
             var color: Color {
                 switch self {
-                case .xxHigh: return Color.contentOnNeutralXxHigh
-                case .medium: return Color.contentOnNeutralMedium
-                case .low: return Color.contentOnNeutralLow
-                case .danger: return Color.contentOnNeutralDanger
-                case .warning: return Color.contentOnNeutralWarning
+                case .xxHigh: return .contentOnNeutralXxHigh
+                case .medium: return .contentOnNeutralMedium
+                case .low: return .contentOnNeutralLow
+                case .danger: return .contentOnNeutralDanger
+                case .warning: return .contentOnNeutralWarning
                 }
             }
         }
@@ -46,8 +46,8 @@ extension Color {
 
             var color: Color {
                 switch self {
-                case .hover: return Color.stateDefaultHover
-                case .focus: return Color.stateDefaultFocus
+                case .hover: return .stateDefaultHover
+                case .focus: return .stateDefaultFocus
                 }
             }
         }
